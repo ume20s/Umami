@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31321.278
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Umami.Android", "Umami\Umami.Android\Umami.Android.csproj", "{AA11355F-C78D-4F5E-946E-2C8CDD0ED7A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Umami", "Umami\Umami\Umami.csproj", "{9F7FD5AF-2558-4B1C-A52F-A3015D5AF7C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Umami", "Umami\Umami\Umami.csproj", "{9F7FD5AF-2558-4B1C-A52F-A3015D5AF7C1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
