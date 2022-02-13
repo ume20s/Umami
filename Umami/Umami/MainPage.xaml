@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Umami.MainPage">
+
+    <StackLayout BackgroundColor="#ffeb3c">
+        <Frame BackgroundColor="#eeee00" Padding="24" CornerRadius="0">
+            <Label Text="う・うまみ～!!" HorizontalTextAlignment="Center" FontSize="36"/>
+        </Frame>
+        <Label x:Name="Msg" Text="ユーザ名を入力してください" TextColor="Black" FontSize="18" Padding="30,10,30,10"/>
+        <Frame Padding="20">
+            <Entry x:Name="UserName" BackgroundColor="#FFFFFF" TextColor="Black" Text="" />
+        </Frame>
+        <StackLayout Orientation="Horizontal">
+            <Button x:Name="ClearBtn" Clicked="Clear_Clicked" Text="クリア" FontSize="30" />
+            <Button x:Name="LoginBtn" Clicked="Login_Clicked" Text="ログイン" FontSize="30" />
+        </StackLayout>
+    </StackLayout>
+</ContentPage>
