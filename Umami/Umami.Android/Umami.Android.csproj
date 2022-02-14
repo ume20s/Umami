@@ -39,6 +39,7 @@
     <BundleAssemblies>false</BundleAssemblies>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <AndroidPackageFormat>aab</AndroidPackageFormat>
     <DebugSymbols>false</DebugSymbols>
     <DebugType>portable</DebugType>
     <Optimize>true</Optimize>
@@ -52,6 +53,11 @@
     <AndroidEnableProfiledAot>false</AndroidEnableProfiledAot>
     <BundleAssemblies>false</BundleAssemblies>
     <EmbedAssembliesIntoApk>true</EmbedAssembliesIntoApk>
+    <AndroidKeyStore>true</AndroidKeyStore>
+    <AndroidSigningKeyStore>C:\tmp\Umami.keystore</AndroidSigningKeyStore>
+    <AndroidSigningStorePass>nextdays7</AndroidSigningStorePass>
+    <AndroidSigningKeyAlias>Umami</AndroidSigningKeyAlias>
+    <AndroidSigningKeyPass>nextdays7</AndroidSigningKeyPass>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Mono.Android" />
