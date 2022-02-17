@@ -54,7 +54,7 @@
     <BundleAssemblies>false</BundleAssemblies>
     <EmbedAssembliesIntoApk>true</EmbedAssembliesIntoApk>
     <AndroidKeyStore>true</AndroidKeyStore>
-    <AndroidSigningKeyStore>C:\tmp\Umami.keystore</AndroidSigningKeyStore>
+    <AndroidSigningKeyStore>F:\Xamarin\Umami\Release\Version2\Umami.keystore</AndroidSigningKeyStore>
     <AndroidSigningStorePass>nextdays7</AndroidSigningStorePass>
     <AndroidSigningKeyAlias>Umami</AndroidSigningKeyAlias>
     <AndroidSigningKeyPass>nextdays7</AndroidSigningKeyPass>
